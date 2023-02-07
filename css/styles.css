@@ -332,6 +332,7 @@ img {
   align-items: center;
   background-color: var(--primary-brand-color);
   border-radius: 50%;
+  color: var(--social-media-color);
 }
 
 .team-soc-link:hover,
@@ -340,7 +341,7 @@ img {
 }
 
 .team-icon {
-  fill: var(--social-media-color);
+  fill: currentColor;
 }
 /* --------------------------CUSTOMERS-------------------------- */
 .customers {
@@ -364,10 +365,11 @@ img {
   align-items: center;
   border: 1px solid var(--helped-color);
   border-radius: 4px;
+  color: var(--helped-color);
 }
 
 .customers-logo {
-  fill: var(--helped-color);
+  fill: currentColor;
 }
 
 .customers-link:hover .customers-logo,
@@ -494,6 +496,7 @@ img {
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  color: var(--social-media-color);
 }
 
 .footer-soc-link:hover,
@@ -502,5 +505,5 @@ img {
 }
 
 .footer-icon {
-  fill: var(--social-media-color);
+  fill: currentColor;
 }
