@@ -334,6 +334,11 @@ img {
   border-radius: 50%;
 }
 
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--footer-hover-color);
+}
+
 .team-icon {
   fill: var(--social-media-color);
 }
